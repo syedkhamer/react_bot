@@ -1,0 +1,5 @@
+# structjson
+
+## Usage
+  jsonToStructProto
+  structProtoToJson

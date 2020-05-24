@@ -1,5 +1,7 @@
-module.exports ={
-    googleProjectID : 'dining-out-qodnto',
-    dailogFlowSessionID: 'react-session',
-    dailogFlowSessionLanguageCode: 'en-US'  
+if(process.env.NODE_ENV==='production'){
+    module.exports=require('./prod')
 }
+else
+  {
+      module.exports=require('./dev')
+  }
